@@ -89,5 +89,5 @@ Rails.application.configure do
   config.action_cable.allowed_request_origins = ['https://limitless-sierra-57995.herokuapp.com',
                                                  'http://limitless-sierra-57995.herokuapp.com']
 
-  config.action_cable.url = "wss://wss://limitless-sierra-57995.herokuapp.com/cable"
+  config.action_cable.url = "wss://limitless-sierra-57995.herokuapp.com/cable"
 end
