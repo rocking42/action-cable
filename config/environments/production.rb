@@ -86,8 +86,8 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-  config.action_cable.allowed_request_origins = ['https://vast-coast-80762.herokuapp.com',
-                                                 'http://vast-coast-80762.herokuapp.com']
+  config.action_cable.allowed_request_origins = ['https://limitless-sierra-57995.herokuapp.com',
+                                                 'http://limitless-sierra-57995.herokuapp.com']
 
-  config.action_cable.url = "wss://https://vast-coast-80762.herokuapp.com/cable"
+  config.action_cable.url = "wss://https://limitless-sierra-57995.herokuapp.com/cable"
 end
